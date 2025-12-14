@@ -31,7 +31,7 @@ Decypharr combines the power of QBittorrent with popular Debrid services to enha
 ```yaml
 services:
   decypharr:
-    image: cy01/blackhole:latest
+    image: ghcr.io/akhanalcs/decypharr:latest
     container_name: decypharr
     ports:
       - "8282:8282"
